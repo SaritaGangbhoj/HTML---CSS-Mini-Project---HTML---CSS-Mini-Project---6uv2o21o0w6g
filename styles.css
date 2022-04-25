@@ -1,1 +1,304 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    background: #eee;
+    height: auto;
+}
+main {
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgb(0 0 0 / 10%), -30px 0px 40px rgb(0 0 0 / 10%);
+}
+#landing {
+    display: flex;
+    height: 100%;
+}
+#landing {
+    background: #fff;
+}
+#landing-text {
+    height: 100vh;
+}
+#landing-text {
+    display: flex;
+    flex: 0 1 40vw;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 40vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#landing-text h2 {
+    color: #888;
+}
+h2 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+h2 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.btn {
+    padding: 0.5rem 2rem;
+    border: 1px #ccc solid;
+    display: inline-block;
+    margin: 2rem 0 0;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #333;
+    transition: background 500ms ease;
+    cursor: pointer;
+}
+#landing-image {
 
+    background-image: url(img/photo-0.jpg);
+    background-position-x: center;
+    background-position-y: center;
+  
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    flex: 0 1 60vw;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 60vw;
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+#header {
+    padding: 1.5rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+#header h2 {
+    border-left: dotted 1px #fff;
+    border-right: dotted 1px #fff;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    /* border-left: dotted 1px #fff;
+    border-left-width: 1px;
+    border-left-style: dotted;
+    border-left-color: rgb(255, 255, 255);
+    border-right: dotted 1px #fff;
+    border-right-width: 1px;
+    border-right-style: dotted;
+    border-right-color: rgb(255, 255, 255);
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem; */
+}
+h2 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+h2 {
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+img {
+    display: block;
+    width: 100%;
+}
+.caption {
+    padding: 0.8rem;
+    text-align: center;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+img {
+    display: block;
+    width: 100%;
+}
+.caption {
+    padding: 0.8rem;
+    text-align: center;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+img {
+    display: block;
+    width: 100%;
+}
+.caption {
+    padding: 0.8rem;
+    text-align: center;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+img {
+    display: block;
+    width: 100%;
+}
+.caption {
+    padding: 0.8rem;
+    text-align: center;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+img {
+    display: block;
+    width: 100%;
+}
+.caption {
+    padding: 0.8rem;
+    text-align: center;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333;
+}
+footer h3 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+h3 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+strong {
+    font-weight: bold;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+strong {
+    font-weight: bold;
+}
